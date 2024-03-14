@@ -10,7 +10,7 @@
 #* *
 #*
 
-# numero de filas ahsta la mita
+# numero de filas hasta la mitad
 filas = 5
 
 # imprimir la parte de arriba
