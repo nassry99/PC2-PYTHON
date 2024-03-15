@@ -24,7 +24,7 @@ def numero_mes(mes):
         "Diciembre":"12",
     }
     return meses.get(mes)
-
+#definir la conversion
 def conversion_fechas(fecha):
     part=fecha.split()
     if len(part)==3:
@@ -37,6 +37,8 @@ def conversion_fechas(fecha):
     else:
         fecha_form=fecha
     return fecha_form
+
+#imprimiendo valores
 fecha=input("Ingrese una fecha en mes-día-año o mes/día/año: ")
 fecha_form=conversion_fechas(fecha)
 print("Fecha en formato MM/DD/YYYY:", fecha_form)
